@@ -6,7 +6,7 @@
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
  * 2013/02/09
 **/
-(function($, window) {
+;(function($, window) {
     window._gaq = window._gaq || [];
 
     String.prototype.capitalize = function() { return this.charAt(0).toUpperCase() + this.slice(1); };
@@ -67,9 +67,4 @@
             });
         }
     });
-<<<<<<< HEAD
-
 }(jQuery, window));
-=======
-}(jQuery, window));
->>>>>>> ec19cf901e5d5d405ddc6c826c7fd17e342b4fc2
